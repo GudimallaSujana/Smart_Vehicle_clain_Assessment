@@ -1,0 +1,13 @@
+%PDF-1.4
+% Demo text PDF for local testing only
+Policy Number: DEMO-POL-2026
+Vehicle Registration Number: TS09AB1234
+Policy Type: Comprehensive / Package Policy
+Policy Start Date: 01/01/2026
+Policy End Date: 31/12/2026
+IDV: Rs. 500000
+Deductible: Rs. 1000
+Coverage: Own Damage, Accidental external damage
+Exclusions: Wear and tear; Mechanical breakdown not arising from accident
+
+%%EOF

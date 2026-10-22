@@ -1,0 +1,9 @@
+vehicle_make,vehicle_model,component,damage_type,severity,repair_cost,replacement_cost,labor_cost,material_cost,currency,source,valid_for_demo
+DemoMake,DemoModel,front bumper,scratch,Minor,2500,0,1200,600,INR,demo_only_not_real,true
+DemoMake,DemoModel,front bumper,dent,Moderate,8500,0,3500,1200,INR,demo_only_not_real,true
+DemoMake,DemoModel,door,scratch,,2200,0,1000,500,INR,demo_only_not_real,true
+DemoMake,DemoModel,door,dent,Moderate,7000,0,3000,1000,INR,demo_only_not_real,true
+DemoMake,DemoModel,headlight,scratch,,2800,0,1200,400,INR,demo_only_not_real,true
+DemoMake,DemoModel,headlight,lamp broken,Moderate,0,12000,1800,300,INR,demo_only_not_real,true
+DemoMake,DemoModel,damaged area,scratch,,3000,0,1200,500,INR,demo_only_not_real,true
+DemoMake,DemoModel,windshield,glass shatter,Severe,0,18000,2500,500,INR,demo_only_not_real,true

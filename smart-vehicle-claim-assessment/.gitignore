@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Local outputs/uploads/databases
+outputs/**/*.sqlite3
+outputs/**/*.db
+outputs/uploads/
+outputs/overlays/
+outputs/reports/
+outputs/test/
+
+# Raw datasets and model weights can be large
+# Keep directory placeholders but do not commit real private datasets/weights by default.
+data/raw/*
+!data/raw/.gitkeep
+models/*
+!models/.gitkeep
+experiments/*.json
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

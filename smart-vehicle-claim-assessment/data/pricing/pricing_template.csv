@@ -1,0 +1,2 @@
+vehicle_make,vehicle_model,component,damage_type,severity,repair_cost,replacement_cost,labor_cost,material_cost,currency,source,valid_for_demo
+# Add real/admin-approved prices here. Leave blank when not available.,,,,,,,,,INR,admin_configured,false

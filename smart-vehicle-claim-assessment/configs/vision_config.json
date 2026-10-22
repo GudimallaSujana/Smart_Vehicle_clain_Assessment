@@ -1,0 +1,37 @@
+{
+  "image_quality": {
+    "min_width": 640,
+    "min_height": 360,
+    "blur_warning_laplacian": 75,
+    "blur_fail_laplacian": 35,
+    "brightness_dark_warning": 55,
+    "brightness_bright_warning": 220
+  },
+  "kaggle_ripik_damage_classes_verified_from_dataset_page": [
+    "crack",
+    "scratch",
+    "tire flat",
+    "dent",
+    "glass shatter",
+    "lamp broken"
+  ],
+  "component_classes": {
+    "bundled_model": [],
+    "fallback_region_inference_only": [
+      "front bumper",
+      "rear bumper",
+      "bonnet",
+      "door",
+      "fender",
+      "headlight",
+      "tail light",
+      "windshield",
+      "side mirror",
+      "grille",
+      "roof",
+      "wheel area",
+      "damaged area"
+    ]
+  },
+  "severity_method": "area_ratio + damage_type + quality/confidence thresholds; fallback is not experimentally evaluated"
+}

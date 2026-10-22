@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "Default configurable decision-support rules. These are not insurer-specific policy wordings.",
+  "own_damage_policy_types": ["comprehensive", "package", "own damage", "od"],
+  "third_party_only_terms": ["third-party", "third party", "tp only"],
+  "requires_manual_review_if_missing": ["policy_number", "start_date", "end_date", "registration_number"],
+  "coverage_keywords": {
+    "collision": ["accident", "collision", "own damage", "damage to vehicle"],
+    "fire": ["fire"],
+    "flood": ["flood", "water", "inundation"],
+    "glass": ["glass", "windshield", "windscreen"]
+  },
+  "high_risk_conditions": ["vehicle_registration_mismatch", "expired_policy", "suspicious_evidence", "insufficient_visual_evidence"],
+  "settlement_cap": "idv_if_available"
+}
